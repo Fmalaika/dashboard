@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.scss';
 import Header from './components/Header'
 import CountArea from './components/CountArea'
+import BarGraph from './components/BarGraph'
+import DoughnutChart from './components/DoughnutChart'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
      <Header />
      <main>
        <CountArea />
+       <BarGraph />
+       <DoughnutChart />
      </main>
     
     </div>
